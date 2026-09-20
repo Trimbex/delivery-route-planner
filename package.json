@@ -1,0 +1,17 @@
+{
+  "name": "delivery-route-planner",
+  "version": "1.0.0",
+  "description": "Organize delivery requests into vehicle trips (max 10 kg each).",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "plan": "node src/cli.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

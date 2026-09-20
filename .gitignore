@@ -1,0 +1,7 @@
+__pycache__/
+node_modules/
+dist/
+coverage/
+.env
+*.log
+npm-debug.log*
